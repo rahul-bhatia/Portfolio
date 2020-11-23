@@ -14,11 +14,10 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
-  dark,
-  dark2
+  
 } from "./InfoElements";
-
-const InfoSection = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,description,buttonLabel,img,alt}) => {
+//dark,dark2 dark={dark ? 1: 0} dark2={dark2?1:0}
+const InfoSection = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,description,buttonLabel,img,alt,primary}) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -35,8 +34,7 @@ const InfoSection = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,de
                     <Button to="home"
                         primary={primary ? 1 : 0}
                         smoot={true}
-                        dark={dark ? 1: 0}
-                        dark2={dark2?1:0}
+                        
                         duration={500}
                         spy={true}
                         exact="true"
