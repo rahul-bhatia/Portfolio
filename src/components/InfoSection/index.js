@@ -14,6 +14,8 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
+  dark,
+  dark2
 } from "./InfoElements";
 
 const InfoSection = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,description,buttonLabel,img,alt}) => {
@@ -30,7 +32,16 @@ const InfoSection = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,de
                    {description}
                 </Subtitle>
                 <BtnWrap>
-                    <Button to="home">{buttonLabel}</Button>
+                    <Button to="home"
+                        primary={primary ? 1 : 0}
+                        smoot={true}
+                        dark={dark ? 1: 0}
+                        dark2={dark2?1:0}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                        offset={-80}
+                    >{buttonLabel}</Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
