@@ -60,7 +60,7 @@ const HeroSection = () => {
               SEE MY RESUME {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
-        </HeroContent>
+        </HeroContent>  
       </HeroContainer>
     </>
   );
