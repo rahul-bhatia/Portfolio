@@ -41,7 +41,7 @@ export const homeObjOne = {
       onClick={() => alert("Apple")}
       style={{ color: "#03814C", margin: 10 }}
     />,
-    <SiJava size={42} style={{ color: "#03814C", margin: 10 }} />,
+    <SiJava onMouseEnter={(event) => event.target.style} size={42} style={{ color: "#03814C", margin: 10 }} />,
     <SiKotlin size={34} style={{ color: "#03814C", margin: 10 }} />,
     <FaNodeJs size={42} style={{ color: "#03814C", margin: 10 }} />,
     <FaReact size={42} style={{ color: "#03814C", margin: 10 }} />,
@@ -54,7 +54,7 @@ export const homeObjOne = {
     <GrHadoop size={42} style={{ color: "#03814C", margin: 10 }} />,
     <SiDigitalocean size={42} style={{ color: "#03814C", margin: 10 }} />,
   ],
-  buttonLabel: "Get Quote",
+  buttonLabel: "visit my work",
   imgStart: false,
   img: require("../../images/coding.svg").default,
   alt: "Rahul Developing projects",

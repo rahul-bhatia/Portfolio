@@ -1,13 +1,16 @@
 import './App.css';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router,HashRouter,Route} from 'react-router-dom';
 import Home from './pages';
 
 
 function App() {
   return (
-    <Router >
-      <Home/>
-    </Router>
+   <HashRouter basename="/">
+ {/* <Router >
+   <Home/>
+   </Router> */}
+   <Route path="/" component={Home}/>
+   </HashRouter>
   );
 }
 
