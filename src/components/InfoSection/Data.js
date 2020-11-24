@@ -25,9 +25,9 @@ import {
 
 export const homeObjOne = {
   id: "Technology",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "What I Love to Do",
   headline: "Building Mobile and Web apps Having Intelligence.",
   description: [
@@ -58,13 +58,13 @@ export const homeObjOne = {
   imgStart: false,
   img: require("../../images/coding.svg").default,
   alt: "Rahul Developing projects",
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
 };
 
 export const homeObjTwo = {
-  id: "Project",
+  id: "Contact",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
