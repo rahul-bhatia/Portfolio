@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b2ed6900.chunk.css",
-    "main.js": "/Portfolio/static/js/main.ee686574.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.ee686574.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.cc67270e.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.cc67270e.js.map",
-    "static/js/2.2de85500.chunk.js": "/Portfolio/static/js/2.2de85500.chunk.js",
-    "static/js/2.2de85500.chunk.js.map": "/Portfolio/static/js/2.2de85500.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "static/css/main.b2ed6900.chunk.css.map": "/Portfolio/static/css/main.b2ed6900.chunk.css.map",
-    "static/js/2.2de85500.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2de85500.chunk.js.LICENSE.txt",
-    "static/media/TurningGlobe.7771d911.mp4": "/Portfolio/static/media/TurningGlobe.7771d911.mp4",
-    "static/media/coding.svg": "/Portfolio/static/media/coding.cf39a962.svg",
-    "static/media/connect.svg": "/Portfolio/static/media/connect.b75f1f53.svg",
-    "static/media/crop.c0f615b4.svg": "/Portfolio/static/media/crop.c0f615b4.svg",
-    "static/media/food.7b95c1e9.svg": "/Portfolio/static/media/food.7b95c1e9.svg",
-    "static/media/instagram.897c592d.svg": "/Portfolio/static/media/instagram.897c592d.svg"
+    "main.css": "/static/css/main.b2ed6900.chunk.css",
+    "main.js": "/static/js/main.f0296b9f.chunk.js",
+    "main.js.map": "/static/js/main.f0296b9f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fbc0c58d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fbc0c58d.js.map",
+    "static/js/2.f686ff89.chunk.js": "/static/js/2.f686ff89.chunk.js",
+    "static/js/2.f686ff89.chunk.js.map": "/static/js/2.f686ff89.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b2ed6900.chunk.css.map": "/static/css/main.b2ed6900.chunk.css.map",
+    "static/js/2.f686ff89.chunk.js.LICENSE.txt": "/static/js/2.f686ff89.chunk.js.LICENSE.txt",
+    "static/media/TurningGlobe.7771d911.mp4": "/static/media/TurningGlobe.7771d911.mp4",
+    "static/media/coding.svg": "/static/media/coding.cf39a962.svg",
+    "static/media/connect.svg": "/static/media/connect.b75f1f53.svg",
+    "static/media/crop.c0f615b4.svg": "/static/media/crop.c0f615b4.svg",
+    "static/media/food.7b95c1e9.svg": "/static/media/food.7b95c1e9.svg",
+    "static/media/instagram.897c592d.svg": "/static/media/instagram.897c592d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc67270e.js",
-    "static/js/2.2de85500.chunk.js",
+    "static/js/runtime-main.fbc0c58d.js",
+    "static/js/2.f686ff89.chunk.js",
     "static/css/main.b2ed6900.chunk.css",
-    "static/js/main.ee686574.chunk.js"
+    "static/js/main.f0296b9f.chunk.js"
   ]
 }
