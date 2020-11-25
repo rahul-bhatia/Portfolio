@@ -41,10 +41,10 @@ const HeroSection = () => {
             <span>{' '}</span>
             <Typed
               strings={[
-                "A passionate Mobile Developer .",
-                "Vehement Web Developer .",
+                "A passionate Mobile Developer.",
+                "Vehement Web Developer.",
                 "Software Programmer.",
-                "An Data Science Enthusiast . "
+                "An Data Science Enthusiast."
               ]}
               typeSpeed={40}
               backSpeed={60}
@@ -53,7 +53,7 @@ const HeroSection = () => {
             <p></p>
           </HeroP>
           <HeroP>
-              I look forward to Research, Design, Implement and Manage software programs.
+              I look forward to Research,Design,Implement and Manage software programs. 
           </HeroP>
           <HeroBtnWrapper>
             <Button primary="true" dark="true" to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
