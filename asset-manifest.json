@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rahul-bhatia/Portfolio/static/css/main.b2ed6900.chunk.css",
-    "main.js": "/rahul-bhatia/Portfolio/static/js/main.814bc24d.chunk.js",
-    "main.js.map": "/rahul-bhatia/Portfolio/static/js/main.814bc24d.chunk.js.map",
+    "main.js": "/rahul-bhatia/Portfolio/static/js/main.2062fd19.chunk.js",
+    "main.js.map": "/rahul-bhatia/Portfolio/static/js/main.2062fd19.chunk.js.map",
     "runtime-main.js": "/rahul-bhatia/Portfolio/static/js/runtime-main.5720c3c8.js",
     "runtime-main.js.map": "/rahul-bhatia/Portfolio/static/js/runtime-main.5720c3c8.js.map",
-    "static/js/2.5fcfb8e1.chunk.js": "/rahul-bhatia/Portfolio/static/js/2.5fcfb8e1.chunk.js",
-    "static/js/2.5fcfb8e1.chunk.js.map": "/rahul-bhatia/Portfolio/static/js/2.5fcfb8e1.chunk.js.map",
+    "static/js/2.5cb4ba93.chunk.js": "/rahul-bhatia/Portfolio/static/js/2.5cb4ba93.chunk.js",
+    "static/js/2.5cb4ba93.chunk.js.map": "/rahul-bhatia/Portfolio/static/js/2.5cb4ba93.chunk.js.map",
     "index.html": "/rahul-bhatia/Portfolio/index.html",
     "static/css/main.b2ed6900.chunk.css.map": "/rahul-bhatia/Portfolio/static/css/main.b2ed6900.chunk.css.map",
-    "static/js/2.5fcfb8e1.chunk.js.LICENSE.txt": "/rahul-bhatia/Portfolio/static/js/2.5fcfb8e1.chunk.js.LICENSE.txt",
+    "static/js/2.5cb4ba93.chunk.js.LICENSE.txt": "/rahul-bhatia/Portfolio/static/js/2.5cb4ba93.chunk.js.LICENSE.txt",
     "static/media/TurningGlobe.7771d911.mp4": "/rahul-bhatia/Portfolio/static/media/TurningGlobe.7771d911.mp4",
     "static/media/coding.svg": "/rahul-bhatia/Portfolio/static/media/coding.cf39a962.svg",
     "static/media/connect.svg": "/rahul-bhatia/Portfolio/static/media/connect.b75f1f53.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5720c3c8.js",
-    "static/js/2.5fcfb8e1.chunk.js",
+    "static/js/2.5cb4ba93.chunk.js",
     "static/css/main.b2ed6900.chunk.css",
-    "static/js/main.814bc24d.chunk.js"
+    "static/js/main.2062fd19.chunk.js"
   ]
 }
