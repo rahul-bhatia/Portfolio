@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import {FaBars} from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
+import ClipLoader from "react-spinners/RingLoader";
 
 import {
   NavbarContainer,
@@ -45,6 +46,7 @@ const Navbar = ({toggle}) => {
               <FaBars />
             </MobileIcon>
             <NavMenu>
+           
               <NavItem>
                 <NavLinks to="Technology"
                   smooth="true"
@@ -64,7 +66,7 @@ const Navbar = ({toggle}) => {
                  >Projects</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="about"
+                <NavLinks to="Achievements"
                  smooth="true"
                  duration={500} 
                  spy={true}

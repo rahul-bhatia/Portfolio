@@ -17,6 +17,10 @@ import {
   
 } from "./InfoElements";
 //dark,dark2 dark={dark ? 1: 0} dark2={dark2?1:0}
+
+const  VisitWork=() =>{
+  window.location.href = "https://github.com/rahul-bhatia";
+}
 const InfoSection = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,description,buttonLabel,img,alt,primary}) => {
   return (
     <>
@@ -34,7 +38,7 @@ const InfoSection = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,de
                     <Button to="home"
                         primary={primary ? 1 : 0}
                         smoot={true}
-                        
+                        onClick={VisitWork}
                         duration={500}
                         spy={true}
                         exact="true"

@@ -26,7 +26,7 @@ const Projects = () => {
             for the given place,date and time
           </ProjectsP>
         </ProjectCard>
-        <ProjectCard>
+        <ProjectCard onClick={() =>{return(window.open("https://twitter.com/rahulbhatia1517"))}}>
           <ProjectIcon src={food} />
           <ProjectsH2>Indian Food Image Classifier</ProjectsH2>
           <ProjectsP>
