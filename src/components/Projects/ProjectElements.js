@@ -23,7 +23,7 @@ export const ProjectWrapper =styled.div`
     max-width:1400px;
     margin:0 auto;
     display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
     align-itmes:center;
     grid-gap:16px;
     padding:0 50px;
@@ -50,7 +50,7 @@ export const ProjectCard=styled.div`
     transition: all 0.2s ease-in-out;
 
     &:hover{
-        transform:scale(1.02);
+        transform:scale(1.20);
         transition:all 0.2s ease-in-out;
         cursor:pointer;
     }

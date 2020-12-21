@@ -26,7 +26,7 @@ const Projects = () => {
             for the given place,date and time
           </ProjectsP>
         </ProjectCard>
-        <ProjectCard onClick={() =>{return(window.open("https://twitter.com/rahulbhatia1517"))}}>
+        <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/FoodImageClassifier"))}}>
           <ProjectIcon src={food} />
           <ProjectsH2>Indian Food Image Classifier</ProjectsH2>
           <ProjectsP>
@@ -34,20 +34,20 @@ const Projects = () => {
             Dataset.
           </ProjectsP>
         </ProjectCard>
-        <ProjectCard>
+        <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/instaclone"))}}>
           <ProjectIcon src={instagram} />
           <ProjectsH2>Instaclone</ProjectsH2>
           <ProjectsP>
             An Android app which tends to clone instagram of mid 2010's.
           </ProjectsP>
         </ProjectCard>
-        <ProjectCard>
+        {/* <ProjectCard>
           <ProjectIcon src={instagram} />
           <ProjectsH2>Instaclone</ProjectsH2>
           <ProjectsP>
             An Android app which tends to clone instagram of mid 2010's.
           </ProjectsP>
-        </ProjectCard>
+        </ProjectCard> */}
       </ProjectWrapper>
     </ProjectContainer>
   );

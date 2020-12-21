@@ -85,7 +85,7 @@ const Navbar = ({toggle}) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-                <NavBtnLink to="/getInTouch">Get In Touch</NavBtnLink>
+                <NavBtnLink onClick={()=>{ window.location.href = "https://www.linkedin.com/in/rahul-bhatia-b13b74144/";}}>Get In Touch</NavBtnLink>
             </NavBtn>
         </NavbarContainer>
       </Nav>
