@@ -1,10 +1,10 @@
 import {
-  FaApple,
+  // FaApple,
   FaDocker,
   FaAndroid,
   FaReact,
   FaPython,
-  FaSass,
+  // FaSass,
   FaNodeJs,
   FaLinkedinIn,
   FaGithub,
@@ -17,7 +17,7 @@ import {
   SiKotlin,
   SiJava,
   SiDigitalocean,
-  SiGraphql,
+  // SiGraphql,
   SiPytorch,
   SiTensorflow,
   SiLeetcode
@@ -81,8 +81,8 @@ export const homeObjTwo = {
       size={42}
       onClick={() =>{return(window.open("https://www.linkedin.com/in/rahul-bhatia-b13b74144/"))}}
       style={{ color: "#03814C", margin: 10 }}
-    />,
-    <FaGoogle size={42} style={{ color: "#03814C", margin: 10 }} />,
+    />, 
+    <a href="mailto:rahulbhatiawork24@gmail.com"> <FaGoogle size={42} style={{ color: "#03814C", margin: 10 }} /></a>,
     <FaTwitter size={34} style={{ color: "#03814C", margin: 10 }} onClick={() =>{return(window.open("https://twitter.com/rahulbhatia1517"))}}/>,
     <SiLeetcode size={42} style={{ color: "#03814C", margin: 10 }} onClick={() =>{return(window.open("https://leetcode.com/rahulbhatia98/"))}}/>,
     <FaInstagram size={42} style={{ color: "#03814C", margin: 10 }} onClick={() =>{return(window.open("https://www.instagram.com/rahul_bhatia98/"))}}/>,

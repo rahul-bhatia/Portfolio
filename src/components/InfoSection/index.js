@@ -14,7 +14,7 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
-  link
+  // link
   
 } from "./InfoElements";
 //dark,dark2 dark={dark ? 1: 0} dark2={dark2?1:0}

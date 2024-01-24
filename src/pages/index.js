@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
 import Sidebar from '../components/Sidebar';
 import Achievements from '../components/achievements';
+import Experience from '../components/Experience';
 
 const Home = () => {
     
@@ -22,6 +23,7 @@ const Home = () => {
         <Navbar toggle={toggle}/>
         <HeroSection/>
         <InfoSection {...homeObjOne}/>
+        <Experience/>
         <Projects/>
         <Achievements/>
         <InfoSection {...homeObjTwo}/>

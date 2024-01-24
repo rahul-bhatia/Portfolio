@@ -9,21 +9,20 @@ import {
   ProjectsP,
 } from "./ProjectElements";
 
-import crop from '../../images/crop.svg';
+import chord from '../../images/chord.svg';
 import food from '../../images/food.svg';
-import instagram from '../../images/instagram.svg';
+import bitcoin from '../../images/bitcoin.svg';
 
 const Projects = () => {
   return (
     <ProjectContainer id="Projects">
       <ProjectsH1>My Projects</ProjectsH1>
       <ProjectWrapper>
-        <ProjectCard>
-          <ProjectIcon src={crop} />
-          <ProjectsH2>Best crop yeild prediction</ProjectsH2>
+      <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/chord-protocol"))}}>
+          <ProjectIcon src={chord} />
+          <ProjectsH2>Chord Messenger</ProjectsH2>
           <ProjectsP>
-            A Random Forest regressor curated to predicts the best crop yield
-            for the given place,date and time
+            Modeled a decentralized, multi-tiered network to implement chord protocol that can withstand 9 million nodes. Extended message passing to gossip protocol and push sum computation.
           </ProjectsP>
         </ProjectCard>
         <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/FoodImageClassifier"))}}>
@@ -34,20 +33,14 @@ const Projects = () => {
             Dataset.
           </ProjectsP>
         </ProjectCard>
-        <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/instaclone"))}}>
-          <ProjectIcon src={instagram} />
-          <ProjectsH2>Instaclone</ProjectsH2>
+        <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/Bitcoint-Miner"))}}>
+          <ProjectIcon src={bitcoin} />
+          <ProjectsH2>Bitcoin Miner</ProjectsH2>
           <ProjectsP>
-            An Android app which tends to clone instagram of mid 2010's.
+          Constructed a distributed system to mine all possible strings/coins using SHA-156 hash value matching with N number
+of leading zeroes. Distributed the processing between 5 machines, each having 12 actors with a processing speed of 4 minutes.
           </ProjectsP>
         </ProjectCard>
-        {/* <ProjectCard>
-          <ProjectIcon src={instagram} />
-          <ProjectsH2>Instaclone</ProjectsH2>
-          <ProjectsP>
-            An Android app which tends to clone instagram of mid 2010's.
-          </ProjectsP>
-        </ProjectCard> */}
       </ProjectWrapper>
     </ProjectContainer>
   );
