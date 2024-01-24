@@ -11,6 +11,7 @@ import {
 
 import hackathon from '../../images/hackathon.svg';
 import publication from '../../images/publication.svg';
+import freeLancing from '../../images/freelancing.svg';
 
 const Achievements = () => {
   return (
@@ -29,6 +30,13 @@ const Achievements = () => {
           <ProjectsH2>Publications</ProjectsH2>
           <ProjectsP>
           Author of Harvest Treasure: Prediction of Best Crop Yield, a Springer research paper published in Intelligent Computing and Networking, written for predicting the optimal crop yield based on various weather and soil parameters acquired using several weather API's and datasets.
+          </ProjectsP>
+        </ProjectCard>
+        <ProjectCard onClick={() =>{return(window.open(" https://www.craftpackaging.in"))}}>
+          <ProjectIcon src={freeLancing} />
+          <ProjectsH2>Free Lancing</ProjectsH2>
+          <ProjectsP>
+          Helped several industeries with tech support to scale their business and leverage their automation with the help of internal tools and Static Websites.
           </ProjectsP>
         </ProjectCard>
       </ProjectWrapper>

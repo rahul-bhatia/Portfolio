@@ -19,23 +19,23 @@ const Experience = () => {
             <ProjectsH1>Experience</ProjectsH1>
             <ProjectWrapper>
             <ProjectCard onClick={() =>{return(window.open(" https://www.linkedin.com/in/rahul-bhatia-b13b74144/"))}}>
-          <ProjectIcon src={fulltime} />
-          <ProjectsH2>Sezzle Inc.</ProjectsH2>
-          <ProjectsP>
-          Worked with the Risk team to execute software solutions to manage the credit-limit of users using various decisioning
-algorithms, writing delinquency jobs, and writing blocklist jobs to underwrite users.
-Collaborated with a data engineering team to implement the rules generated using machine learning techniques to gauge
-credit score, participated in code-reviews and cross-functional team requirement gathering.
-          </ProjectsP>
-        </ProjectCard>
-        <ProjectCard onClick={() =>{return(window.open(" https://www.linkedin.com/in/rahul-bhatia-b13b74144/"))}}>
-          <ProjectIcon src={intern} />
-          <ProjectsH2>Internship @ Sezzle Inc.</ProjectsH2>
-          <ProjectsP>
-          Collaborated with the Risk Team to underwrite fraud prevention and deliver customer-facing features to reduce risk
-while increasing conversion.Designed tools for the analyst dashboard to identify tech debts and decide users' credit limits for 7 million users. 
-          </ProjectsP>
-        </ProjectCard>
+              <ProjectIcon src={intern} />
+              <ProjectsH2>Internship @ Sezzle Inc.</ProjectsH2>
+              <ProjectsP>
+              Collaborated with the Risk Team to underwrite fraud prevention and deliver customer-facing features to reduce risk
+    while increasing conversion.Designed tools for the analyst dashboard to identify tech debts and decide users' credit limits for 7 million users. 
+              </ProjectsP>
+            </ProjectCard>
+            <ProjectCard onClick={() =>{return(window.open(" https://www.linkedin.com/in/rahul-bhatia-b13b74144/"))}}>
+                <ProjectIcon src={fulltime} />
+                <ProjectsH2>SDE-1 @ Sezzle Inc.</ProjectsH2>
+                <ProjectsP>
+                                Worked with the Risk team to execute software solutions to manage the credit-limit of users using various decisioning
+                      algorithms, writing delinquency jobs, and writing blocklist jobs to underwrite users.
+                      Collaborated with a data engineering team to implement the rules generated using machine learning techniques to gauge
+                      credit score, participated in code-reviews and cross-functional team requirement gathering.
+                </ProjectsP>
+            </ProjectCard>
         <ProjectCard onClick={() =>{return(window.open(" https://www.linkedin.com/in/rahul-bhatia-b13b74144/"))}}>
           <ProjectIcon src={blog} />
           <ProjectsH2>Internships @ IDZ and BARC</ProjectsH2>

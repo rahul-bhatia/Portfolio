@@ -18,19 +18,19 @@ const Projects = () => {
     <ProjectContainer id="Projects">
       <ProjectsH1>My Projects</ProjectsH1>
       <ProjectWrapper>
-      <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/chord-protocol"))}}>
-          <ProjectIcon src={chord} />
-          <ProjectsH2>Chord Messenger</ProjectsH2>
-          <ProjectsP>
-            Modeled a decentralized, multi-tiered network to implement chord protocol that can withstand 9 million nodes. Extended message passing to gossip protocol and push sum computation.
-          </ProjectsP>
-        </ProjectCard>
         <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/FoodImageClassifier"))}}>
           <ProjectIcon src={food} />
           <ProjectsH2>Indian Food Image Classifier</ProjectsH2>
           <ProjectsP>
             An Image Classifier trained using Poets2 on Indian Food items
             Dataset.
+          </ProjectsP>
+        </ProjectCard>
+        <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/chord-protocol"))}}>
+          <ProjectIcon src={chord} />
+          <ProjectsH2>Chord Messenger</ProjectsH2>
+          <ProjectsP>
+            Modeled a decentralized, multi-tiered network to implement chord protocol that can withstand 9 million nodes. Extended message passing to gossip protocol and push sum computation.
           </ProjectsP>
         </ProjectCard>
         <ProjectCard onClick={() =>{return(window.open("https://github.com/rahul-bhatia/Bitcoint-Miner"))}}>
