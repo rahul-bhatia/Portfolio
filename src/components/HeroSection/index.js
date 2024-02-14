@@ -22,7 +22,7 @@ const HeroSection = () => {
     }
     const downloadFile = () => {
       //window.open('./resume.pdf')
-      window.location.href = "https://docs.google.com/document/d/1FQbG5fNRwjEu8ohZ5yoSexKLvyW0M0XcWygJNDIpaxo/edit?usp=sharing"
+      window.location.href = "https://drive.google.com/file/d/1tu6qFlIQK441-U8R31--ZYCigEqzKsE9/view?usp=sharing"
     }
   return (
     <>
